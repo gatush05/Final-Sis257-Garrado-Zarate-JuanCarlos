@@ -1,0 +1,20 @@
+create database Final257;
+
+
+use Final257;
+
+
+create table serie(
+
+id INT PRIMARY KEY not null auto_increment,
+
+titulo VARCHAR(250) not null,
+
+sinopsis VARCHAR(5000) not null,
+
+director VARCHAR(100) not null,
+
+duracion INT not null,
+anio_estreno INT not null
+
+);
